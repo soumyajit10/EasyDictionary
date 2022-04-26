@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/grey"
+    android:layout_marginTop="8dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="4dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:fontFamily="sans-serif-black"
+        android:id="@+id/txtView_Definition"
+        android:text="Definition"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:fontFamily="sans-serif"
+            android:id="@+id/txtView_example"
+            android:text="Example"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Synonyms"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:fontFamily="sans-serif"
+            android:id="@+id/txtView_synonyms"
+            android:text="Example"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Antonyms"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:fontFamily="sans-serif"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:id="@+id/txtView_antonyms"
+            android:text="Example"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            android:textSize="17sp"/>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
